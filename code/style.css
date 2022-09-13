@@ -1,0 +1,74 @@
+/* Colors:
+Green: #5F7161
+Light green: #6D8B74
+Beige: #EFEAD8
+Grey: #D0C9C0 */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #d0c9c0;
+}
+.header {
+  background: url(./assets/hero-1.jpg);
+  background-size: cover;
+  background-position-y: 30%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 520px;
+  position: relative;
+}
+.socials {
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  display: flex;
+  gap: 5px;
+}
+.social-icon {
+  height: 40px;
+}
+.social-link:hover {
+  opacity: 75%;
+  transition: 0.3s ease;
+}
+.profile-img {
+  position: absolute;
+  right: 50px;
+  bottom: -50px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile-img > img {
+  width: 100%;
+}
+.header-text p {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.header-text p span {
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.header-text h1 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 40px;
+}
+.header-text h2 {
+  line-height: 18px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 30px;
+}
+.header-text {
+  position: absolute;
+  top: 121px;
+  left: 30px;
+  right: 131px;
+  bottom: 197px;
+  max-width: 250px;
+  color: white;
+  font-weight: 700;
+}
