@@ -16,7 +16,7 @@ body {
 }
 .section:nth-child(2n) {
   background-color: whitesmoke;
-  padding: 70px 0px;
+  padding: 60px 0px;
 }
 
 .section:nth-child(2n + 1) {
@@ -67,10 +67,10 @@ p {
   top: 50px;
   right: 25px;
   display: flex;
-  gap: 5px;
+  gap: 10px;
 }
 .social-icon {
-  height: 50px;
+  height: 30px;
 }
 .social-link:hover {
   opacity: 75%;
@@ -215,11 +215,15 @@ img {
   opacity: 75%;
   transition: 0.3s ease;
 }
+.repo-tag:hover {
+  opacity: 75%;
+  transition: 0.3s ease;
+}
 /* OTHER PROJECTS */
 .other-project {
   margin-top: 2.5rem;
 }
-.other-project .project-title:hover {
+.other-project:hover .project-title:hover {
   opacity: 75%;
   transition: 0.3s ease;
 }
@@ -312,6 +316,9 @@ footer p {
     font-size: 1.2rem;
     line-height: 1.5;
   }
+  .social-icon {
+    height: 50px;
+  }
   .section-title,
   .section-subtitle,
   footer h2 {
@@ -321,6 +328,10 @@ footer p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+  }
+  .more-thoughts {
+    display: flex;
+    justify-content: center;
   }
   .skills-container {
     grid-template-columns: auto auto auto;
