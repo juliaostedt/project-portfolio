@@ -107,6 +107,7 @@ p {
 /* INTRO */
 .intro {
   margin-top: 2rem;
+  line-height: 1.6rem;
 }
 .line {
   border: 1px solid #5f7161;
@@ -129,6 +130,9 @@ p {
 /*FEATURED PROJECTS*/
 img {
   width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: 20% 80%;
 }
 .project {
   margin-top: 24px;
@@ -304,17 +308,11 @@ footer p {
   footer h2 {
     font-size: 1.8rem;
   }
-
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
   }
-
-  /*  .more-thoughts-title {
-    text-align: center;
-  } */
-
   .skills-container {
     grid-template-columns: auto auto auto;
   }
