@@ -14,8 +14,16 @@ body {
   margin: 0 auto;
   position: relative;
 }
+.section:nth-child(2n) {
+  background-color: whitesmoke;
+  padding: 70px 0px;
+}
+
+.section:nth-child(2n + 1) {
+  background-color: #d0c9c0;
+}
 .section {
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 p {
   color: #000;
@@ -37,12 +45,12 @@ p {
 .section-subtitle {
   font-weight: 700;
   font-size: 1.5rem;
-  color: #fff;
+  color: #5f7161;
   padding: 0 5px;
   margin: 40px 0 20px;
   text-transform: uppercase;
   text-align: center;
-  text-shadow: 1px 1px #5f7161;
+  text-shadow: 1px 1px #fff;
 }
 
 /* HEADER */
@@ -234,10 +242,9 @@ img {
   color: #000;
   text-decoration: none;
   line-height: 2rem;
-  /* margin-bottom: 1rem; */
 }
 .more-thoughts-title:hover {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #5f7161;
   display: inline;
 }
 /* SKILLS */
@@ -250,7 +257,7 @@ img {
   list-style-type: none;
   line-height: 1.8;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .skill-title {
   color: #fff;
