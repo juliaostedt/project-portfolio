@@ -42,6 +42,7 @@ p {
   margin: 40px 0 20px;
   text-transform: uppercase;
   text-align: center;
+  text-shadow: 1px 1px #5f7161;
 }
 
 /* HEADER */
@@ -255,6 +256,7 @@ img {
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
+  text-shadow: 1px 1px #5f7161;
 }
 /* FOOTER */
 footer {
