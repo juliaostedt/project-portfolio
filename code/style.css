@@ -18,9 +18,6 @@ body {
   background-color: whitesmoke;
   padding: 60px 0px;
 }
-.section:nth-child(2n + 1) {
-  background-color: #d0c9c0;
-}
 .section {
   margin-top: 5rem;
 }
